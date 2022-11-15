@@ -39,15 +39,15 @@ main {
   background-color: rgb(204, 255, 103);
 }
 
+.redes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
   background-color: rgb(246, 246, 214);
-}
-
-.redes {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-transform: uppercase;
 }
 
 form {
