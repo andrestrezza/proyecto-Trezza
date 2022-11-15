@@ -1,0 +1,23 @@
+/* HEADER */
+
+h1 {
+    background-color: $color-fondo;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: medium;
+  }
+  
+  nav {
+    text-align: right;
+    background-color: rgb(252, 252, 166);
+    margin: 0px;
+  }
