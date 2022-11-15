@@ -1,5 +1,8 @@
 /* HEADER */
 h1 {
+  text-decoration: none;
+  color: blue;
+  font-size: 5rem;
   background-color: rgb(197, 255, 82);
   text-align: center;
 }
