@@ -1,4 +1,4 @@
-@import "variables","header","main","redes","tienda","footer","formulario","sobreMi";
+@import "variables","header","main","redes","tienda","footer","formulario","sobreMi","noticias","animaciones";
   
 
   
@@ -11,30 +11,5 @@
   
   
  
+
   
-  .noticias {
-    background-color: chartreuse;
-    font-size: larger;
-  }
-  
-  /* ANIMACION PARA TIENDA */
-  
-  .row:hover {
-    filter: grayscale(90%);
-  }
-  
-  @keyframes texto {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 100%;
-    }
-  }
-  
-  h1 {
-    animation-name: texto;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
