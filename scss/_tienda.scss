@@ -7,3 +7,15 @@
   .subtituloTienda {background-color: $color-fondo;
 color: $color-fuentes;
 text-align: center;}
+
+
+.fotoTienda  {
+  width: 20%;
+  height: 30%;
+  margin-left: 2%;
+  padding: 2%;
+  margin-top: 5%;
+  display: inline-flex;
+  object-fit: cover;
+
+}

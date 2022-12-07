@@ -91,6 +91,16 @@ main {
   text-align: center;
 }
 
+.fotoTienda {
+  width: 20%;
+  height: 30%;
+  margin-left: 2%;
+  padding: 2%;
+  margin-top: 5%;
+  display: inline-flex;
+  object-fit: cover;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
@@ -103,6 +113,21 @@ form {
   padding: 100px;
   margin: 30px;
   margin-top: 50px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .sobre-mi {
